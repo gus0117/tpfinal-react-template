@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px 50px;
+}
+
+.vh {
+    height: 100%;
+}
+
+.app-title {
+    text-align: center;
+}
+
+.cards {
+    padding: 10px 15px;
+    display: inline-grid;
+    column-gap: 50px;
+    row-gap: 30px;
+    grid-template-columns: auto auto auto;
+}
+
+.border-card{
+    border-style: groove;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: blue;
+}
+
+.new-card {
+    width: 200px;
+    height: 150px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.new-card:hover {
+    background-color: cadetblue;
+}
+
+.icon-new-card {
+    font-size: 4rem;
+    margin: 0 55px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: cadetblue;
+    background-color: cadetblue;
+    border-style: solid;
+    color: rgb(248, 139, 14);
+}
+
+
+
+.card {
+    padding: 10px;
+}
